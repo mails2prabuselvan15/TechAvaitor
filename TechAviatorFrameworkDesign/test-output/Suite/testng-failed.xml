@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="InternetExplorer"/>
+  <test name="Regression(failed)">
+    <parameter name="browser" value="InternetExplorer"/>
+    <classes>
+      <class name="TestScript.bookSearch">
+        <methods>
+          <include name="InvalidSearch"/>
+          <include name="LaunchApp"/>
+        </methods>
+      </class> <!-- TestScript.bookSearch -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
